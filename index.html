@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Text</title>
+</head>
+<body>
+    <!-- 
+    Even though the text below was written as 2 paragraphs
+    the browser will compress them and the text will be clumped into 
+    one long line 
+    -->
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua.
+  
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+
+    <!--
+    If we want to create paragraphs in HTML, we need to use the paragraph element: <p></p> tag
+    -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua.</p>
+
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  nisi ut aliquip ex ea commodo consequat.</p>
+
+
+    <!--
+    Headings are different to other HTML elements: they are displayed larger and bolder than other
+    text to signify that they are headings.
+    There are 6 different levels of heading starting at <h1> and going to <h6>. h1 is the most important
+    and the biggest whereas the h6 is the least important and the smallest.
+    -->
+    <h1>This is a heading 1</h1>
+    <h2>This is a heading 2</h2>
+    <h3>This is a heading 3</h3>
+    <h4>This is a heading 4</h4>
+    <h5>This is a heading 5</h5>
+    <h6>This is a heading 6</h6>
+
+
+    <!--
+    The <strong> tag makes text bold and "strong". It is used to make text stand out as important.
+    Some voice readers will change their voice to communicate the importance of what is being read.
+    It's useful to help people with visual impairments.
+    -->
+    <p>Lorem ipsum <strong>dolor sit</strong> amet, consectetur adipiscing elit.</p>
+
+
+    <!--
+    The em elements makes text italic. It also puts an emphasis on the text, which might impact
+    things like screen readers.
+    -->
+    <p>Lorem ipsum <em>dolor sit</em> amet, consectetur adipiscing elit.</p>
+
+    <!--
+    We indent elements that are within other elements. This is known as nesting elements.
+    When we nest elements we create a parent and child relationship between them. The nested
+    elements are the children and the elements they are nested within are parents.
+    -->
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </body>
+
+    <!--
+    HTML parent element can have many children. Elements at the same level of nesting are
+    considered to be siblings.
+    -->
+    <body>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </body>
+</body>
+</html>
